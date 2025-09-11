@@ -183109,7 +183109,7 @@
 		(layer "User.1")
 		(uuid "b4e475b1-0cbf-4c1d-bd54-7b9ee8517e68")
 	)
-	(gr_text "100W\n12-24\nVDC"
+	(gr_text "100W\n12-18\nVDC"
 		(at 176.725 88.5 0)
 		(layer "F.SilkS")
 		(uuid "020161b5-80f2-48b1-8b2b-0633e2ee208e")
