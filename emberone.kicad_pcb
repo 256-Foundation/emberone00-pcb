@@ -44755,7 +44755,7 @@
 				)
 			)
 		)
-		(property "PARTNO" "INA260AIPW"
+		(property "PARTNO" "INA260AIPWR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44768,7 +44768,7 @@
 				)
 			)
 		)
-		(property "DK" "296-45218-5-ND"
+		(property "DK" "296-47777-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
