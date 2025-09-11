@@ -12681,7 +12681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700pF"
+		(property "Value" "1000pF"
 			(at 403.606 154.94 0)
 			(effects
 				(font
@@ -12717,7 +12717,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-1133-1-ND"
+		(property "DK" "445-2320-1-ND"
 			(at 400.05 153.67 0)
 			(effects
 				(font
@@ -12726,7 +12726,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "CC0805KRX7R9BB472"
+		(property "PARTNO" "C2012C0G2A102J060AA"
 			(at 400.05 153.67 0)
 			(effects
 				(font
