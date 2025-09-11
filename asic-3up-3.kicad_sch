@@ -2746,12 +2746,6 @@
 		(uuid "85662619-405f-462d-96b3-82272d94195b")
 	)
 	(junction
-		(at 260.35 250.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c445f07-03dc-4381-aba5-8b600924c1fb")
-	)
-	(junction
 		(at 73.66 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4707,7 +4701,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 243.84) (xy 260.35 250.19)
+			(xy 260.35 243.84) (xy 260.35 255.27)
 		)
 		(stroke
 			(width 0)
@@ -5874,16 +5868,6 @@
 			(type default)
 		)
 		(uuid "e8808967-cdc9-47e6-9b97-85b6bd7b5811")
-	)
-	(wire
-		(pts
-			(xy 260.35 250.19) (xy 260.35 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9762e10-27c2-4f18-a662-3ebd3d5ebf20")
 	)
 	(wire
 		(pts
@@ -10637,73 +10621,6 @@
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/75fd7cab-4b1e-4fa4-8631-02e52962bbf8"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 265.43 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f2f1832-04ec-444c-88e8-053989d5b60d")
-		(property "Reference" "J21"
-			(at 267.716 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 267.97 251.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "emberone:14x9_powertab_L"
-			(at 265.43 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "powertab"
-			(at 265.43 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de4636e4-05f6-478c-8bee-ead28fd69150")
-		)
-		(instances
-			(project "emberone"
-				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/75fd7cab-4b1e-4fa4-8631-02e52962bbf8"
-					(reference "J21")
 					(unit 1)
 				)
 			)

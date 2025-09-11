@@ -8483,15 +8483,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part" "Basic Part"
-			(at 88.9 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "GRM1555C1H300JA01D"
 			(at 88.9 254 0)
 			(effects
@@ -8588,15 +8579,6 @@
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 207.01 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part" "Basic Part"
-			(at 212.09 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9085,15 +9067,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part" "Basic Part"
-			(at 193.04 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "KGM05AR71C104KH"
 			(at 193.04 91.44 0)
 			(effects
@@ -9193,15 +9166,6 @@
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 204.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part" "Basic Part"
-			(at 204.47 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,15 +9739,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part" "Basic Part"
-			(at 326.39 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "KGM05AR71C104KH"
 			(at 326.39 91.44 0)
 			(effects
@@ -9883,15 +9838,6 @@
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 269.24 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part" "Basic Part"
-			(at 269.24 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10258,15 +10204,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part" ""
-			(at 151.13 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "RC0402FR-071KL"
 			(at 168.91 130.81 0)
 			(effects
@@ -10366,15 +10303,6 @@
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 303.53 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part" "Basic Part"
-			(at 303.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10578,15 +10506,6 @@
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 280.67 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part" "Basic Part"
-			(at 280.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11213,15 +11132,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part" "Basic Part"
-			(at 246.38 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "EMK105BJ105MV-F"
 			(at 246.38 91.44 0)
 			(effects
@@ -11472,15 +11382,6 @@
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 217.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part" "Basic Part"
-			(at 217.17 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11903,15 +11804,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part" "Basic Part"
-			(at 257.81 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "KGM05AR71C104KH"
 			(at 257.81 91.44 0)
 			(effects
@@ -12011,15 +11903,6 @@
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 314.96 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part" "Basic Part"
-			(at 314.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12218,15 +12101,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part" "Basic Part"
-			(at 212.09 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "RC0402FR-0733RL"
 			(at 194.31 120.65 0)
 			(effects
@@ -12414,15 +12288,6 @@
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 292.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part" "Basic Part"
-			(at 292.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12891,15 +12756,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part" "Basic Part"
-			(at 118.11 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PARTNO" "KGM05AR71C104KH"
 			(at 118.11 209.55 0)
 			(effects
@@ -13000,15 +12856,6 @@
 		)
 		(property "Manufacturer" "FH(风华)"
 			(at 66.04 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part" "Basic Part"
-			(at 66.04 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
