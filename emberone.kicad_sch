@@ -1159,16 +1159,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 82.55) (xy 279.4 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e3c728c-51ac-4d83-9819-37dafb5e1f01")
-	)
-	(wire
-		(pts
 			(xy 279.4 165.1) (xy 281.94 165.1)
 		)
 		(stroke
@@ -1536,16 +1526,6 @@
 			(justify left bottom)
 		)
 		(uuid "355f0ca7-5d96-4328-abba-769a45cd269f")
-	)
-	(label "3V6"
-		(at 279.4 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "36d1388d-9737-47a0-a67f-950ef7f14d31")
 	)
 	(label "3V3"
 		(at 186.69 82.55 180)
@@ -4112,16 +4092,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "VDD" input
-			(at 269.24 82.55 0)
-			(uuid "dd369e8b-3458-4dd8-8200-54694c2a872d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "TEMP_N" input
