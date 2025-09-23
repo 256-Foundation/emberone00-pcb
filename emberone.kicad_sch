@@ -719,16 +719,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 162.56) (xy 279.4 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0414c309-acad-4933-bd5f-7e69e92ef0a4")
-	)
-	(wire
-		(pts
 			(xy 279.4 106.68) (xy 269.24 106.68)
 		)
 		(stroke
@@ -959,16 +949,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 162.56) (xy 165.1 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a24aa3c-929a-42f0-8c00-543b3613fc76")
-	)
-	(wire
-		(pts
 			(xy 138.43 147.32) (xy 167.64 147.32)
 		)
 		(stroke
@@ -976,6 +956,16 @@
 			(type default)
 		)
 		(uuid "6b68f456-bef1-47b9-bb03-5ce5f43dd352")
+	)
+	(wire
+		(pts
+			(xy 99.06 162.56) (xy 107.95 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e589b7f-4467-4c73-843b-e38380e21b02")
 	)
 	(wire
 		(pts
@@ -1006,16 +996,6 @@
 			(type default)
 		)
 		(uuid "751a1824-b49b-48fb-b9f8-9cdead6e406a")
-	)
-	(wire
-		(pts
-			(xy 217.17 162.56) (xy 222.25 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76762a48-e552-4654-b429-54bc8c3d97f1")
 	)
 	(wire
 		(pts
@@ -1056,6 +1036,16 @@
 			(type default)
 		)
 		(uuid "7e87e574-bf3f-4a76-bc9c-82d27570554f")
+	)
+	(wire
+		(pts
+			(xy 156.21 162.56) (xy 165.1 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ede9589-ecef-46e2-9752-62c60ce77ca8")
 	)
 	(wire
 		(pts
@@ -1229,6 +1219,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 162.56) (xy 279.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bc469d-a461-4ba2-8395-c9ed233e0b1f")
+	)
+	(wire
+		(pts
 			(xy 252.73 157.48) (xy 281.94 157.48)
 		)
 		(stroke
@@ -1236,6 +1236,26 @@
 			(type default)
 		)
 		(uuid "b837c4d8-f500-4926-9a6b-b80a26655d44")
+	)
+	(wire
+		(pts
+			(xy 213.36 162.56) (xy 222.25 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85ed36f-73cb-41dc-947e-feab56771536")
+	)
+	(wire
+		(pts
+			(xy 269.24 78.74) (xy 280.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd44ea63-0b3a-474c-836d-5a63591cbe7a")
 	)
 	(wire
 		(pts
@@ -1276,16 +1296,6 @@
 			(type default)
 		)
 		(uuid "c69a52da-5054-4785-b3f7-a9b95600903e")
-	)
-	(wire
-		(pts
-			(xy 102.87 162.56) (xy 107.95 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c763bfb8-3ec1-4e00-842f-57d5cd63c0b3")
 	)
 	(wire
 		(pts
@@ -1487,16 +1497,6 @@
 		)
 		(uuid "fd7f1607-0f21-42a6-9f7d-3bf2b7a0a0ee")
 	)
-	(label "5V"
-		(at 160.02 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ac5664a-37f3-47a9-9517-d63e9af45c12")
-	)
 	(label "TEMP_N"
 		(at 149.86 163.83 180)
 		(effects
@@ -1516,6 +1516,16 @@
 			(justify right bottom)
 		)
 		(uuid "0f68c994-4818-4c31-9991-b6dfba308076")
+	)
+	(label "5V_SWITCH"
+		(at 156.21 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b0d75bc-4340-45f7-919e-fb2e24991ea2")
 	)
 	(label "RST"
 		(at 231.14 110.49 0)
@@ -1567,16 +1577,6 @@
 		)
 		(uuid "6151d3a2-42a3-4269-a5fe-324439940848")
 	)
-	(label "5V"
-		(at 102.87 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b91aa23-e303-4c62-a478-6859f1a17fd5")
-	)
 	(label "TX"
 		(at 231.14 107.95 0)
 		(effects
@@ -1586,16 +1586,6 @@
 			(justify left bottom)
 		)
 		(uuid "70b1d24c-8c2d-4820-96d6-6eff83b5a2e2")
-	)
-	(label "5V"
-		(at 217.17 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f5e4462-7928-4dd8-a01d-1f8477f03238")
 	)
 	(label "TEMP_N"
 		(at 279.4 106.68 180)
@@ -1616,16 +1606,6 @@
 			(justify right bottom)
 		)
 		(uuid "8f5b8543-7bf2-48c6-8db4-883406906a89")
-	)
-	(label "5V"
-		(at 273.05 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f713dc9-50b9-44db-82af-f662e5ffce77")
 	)
 	(label "TX"
 		(at 101.6 153.67 0)
@@ -1657,6 +1637,26 @@
 		)
 		(uuid "9da0f434-9782-4bdb-92b9-f8774b19817c")
 	)
+	(label "5V_SWITCH"
+		(at 270.51 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3a47cec-43d9-44de-af38-4aa2fc7ed255")
+	)
+	(label "5V_SWITCH"
+		(at 213.36 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b42fa873-d206-459c-8570-bab2cede2265")
+	)
 	(label "3V3"
 		(at 101.6 147.32 0)
 		(effects
@@ -1677,6 +1677,16 @@
 		)
 		(uuid "c35b4f88-c3c8-4fe2-b320-d233af63c5af")
 	)
+	(label "5V_SWITCH"
+		(at 280.67 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cde2faef-4d30-4f83-a502-cadc3395d703")
+	)
 	(label "5V"
 		(at 229.87 78.74 0)
 		(effects
@@ -1696,6 +1706,16 @@
 			(justify left bottom)
 		)
 		(uuid "fb39edc4-8f35-4ba9-aa07-f0204551cc8f")
+	)
+	(label "5V_SWITCH"
+		(at 99.06 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc602a6d-4687-4efa-b37f-4b696d257e93")
 	)
 	(global_label "GND"
 		(shape input)
@@ -1774,6 +1794,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 151.13 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5d5529e-a4f0-478b-acab-ed12ac0ac069")
 		)
@@ -1841,6 +1870,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 350.52 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
@@ -1898,6 +1936,15 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 151.13 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 151.13 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,6 +2019,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 350.52 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
@@ -2029,6 +2085,15 @@
 		)
 		(property "Description" ""
 			(at 87.63 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 87.63 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,6 +2168,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 90.17 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
@@ -2167,6 +2241,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 123.19 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
@@ -2224,6 +2307,15 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 151.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 151.13 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,6 +2390,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 151.13 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ca11d31-c84d-43be-80c1-3fb19eacd6bf")
 		)
@@ -2358,6 +2459,15 @@
 		)
 		(property "Description" ""
 			(at 101.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 101.6 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,6 +2550,15 @@
 			)
 		)
 		(property "PARTNO" "7790"
+			(at 116.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -2531,6 +2650,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 116.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd6d5c81-64a0-400c-b718-c84057812f82")
 		)
@@ -2590,6 +2718,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 90.17 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 90.17 196.85 0)
 			(effects
 				(font
@@ -2662,6 +2799,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 123.19 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
@@ -2718,6 +2864,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 90.17 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 90.17 209.55 0)
 			(effects
 				(font
@@ -2783,6 +2938,15 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 151.13 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 151.13 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,6 +3021,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 85.09 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44ac5acc-3537-4dcc-943f-ddc2f1e5e8fb")
 		)
@@ -2917,6 +3090,15 @@
 		)
 		(property "Description" ""
 			(at 123.19 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 123.19 210.185 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,6 +3170,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 123.19 217.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "emberone"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
@@ -3045,6 +3236,15 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 151.13 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 151.13 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,6 +3312,15 @@
 		)
 		(property "Description" ""
 			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 82.55 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,6 +4341,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "5V_SWITCH" output
+			(at 269.24 78.74 0)
+			(uuid "ba611484-179c-48c2-bcc9-691428be1aa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

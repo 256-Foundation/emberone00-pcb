@@ -6092,6 +6092,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 143.51 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "add2e533-e97b-444b-abed-8585a96db54f")
 		)
@@ -6151,6 +6160,15 @@
 		)
 		(property "Description" ""
 			(at 259.08 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 248.92 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,6 +6342,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 59.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2026aa7a-4bf0-463c-9777-3651a56af111")
 		)
@@ -6430,6 +6457,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff3cc048-2164-4fcf-a4ac-78cb7c95fb2d")
 		)
@@ -6519,6 +6555,15 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 278.13 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 278.13 149.86 0)
 			(effects
 				(font
@@ -6624,6 +6669,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 74.93 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09a348bb-3925-4af6-aeab-413631a633c5")
 		)
@@ -6686,6 +6740,15 @@
 		)
 		(property "Description" "test point"
 			(at 308.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 308.61 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,6 +6849,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 356.87 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3bf950e-e7da-4cd7-ba7e-16c6b7692d9f")
 		)
@@ -6849,6 +6921,15 @@
 		)
 		(property "Description" "test point"
 			(at 212.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 212.09 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6922,6 +7003,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 299.72 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc14b763-a281-405f-ad13-3e2ebc208a69")
 		)
@@ -6981,6 +7071,15 @@
 		)
 		(property "Description" "test point"
 			(at 185.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 185.42 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,6 +7172,15 @@
 			)
 		)
 		(property "LCSC" "C25105"
+			(at 325.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 325.12 78.74 0)
 			(effects
 				(font
@@ -7178,6 +7286,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76c9ed1f-b92b-40c6-9085-01ea210cbfb1")
 		)
@@ -7267,6 +7384,15 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 135.89 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 135.89 186.69 0)
 			(effects
 				(font
@@ -7370,6 +7496,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 120.65 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50eab092-b792-4af9-85ae-a957c08714b0")
 		)
@@ -7449,6 +7584,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 254 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70944521-4835-4226-bbd1-65de9fa0e881")
 		)
@@ -7509,6 +7653,15 @@
 		)
 		(property "Description" ""
 			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 143.51 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,6 +7754,15 @@
 			)
 		)
 		(property "LCSC" "C25105"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 194.31 134.62 0)
 			(effects
 				(font
@@ -7704,6 +7866,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 120.65 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d437e55a-7903-4459-a338-ab7ccc0fd63c")
 		)
@@ -7775,6 +7946,15 @@
 		)
 		(property "Description" "test point"
 			(at 334.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 334.01 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,6 +8055,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 101.6 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b8f55ce-ae8f-4e1c-92dc-4811f6f7216c")
 		)
@@ -7938,6 +8127,15 @@
 		)
 		(property "Description" ""
 			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 171.45 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,6 +8236,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 356.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14099797-040e-4639-be59-0870c2082c77")
 		)
@@ -8107,6 +8314,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 203.2 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ed6e3c3-55b3-491d-9dc6-d7e6350d8923")
 		)
@@ -8166,6 +8382,15 @@
 			)
 		)
 		(property "Description" "powertab"
+			(at 254 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 254 153.67 0)
 			(effects
 				(font
@@ -8267,6 +8492,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 308.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ff53674-4751-44ce-b7d6-2e31cd4b7325")
 		)
@@ -8330,6 +8564,15 @@
 		)
 		(property "Description" "test point"
 			(at 176.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 176.53 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8404,6 +8647,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 143.51 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1cd446db-32ee-459d-8312-3848f2316465")
 		)
@@ -8471,6 +8723,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 83.82 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a71704c9-0737-4ff6-8cfc-d07359b162a9")
 		)
@@ -8531,6 +8792,15 @@
 		)
 		(property "Description" ""
 			(at 83.82 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 83.82 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8623,6 +8893,15 @@
 			)
 		)
 		(property "LCSC" "C25105"
+			(at 185.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 185.42 134.62 0)
 			(effects
 				(font
@@ -8727,6 +9006,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bdc87bf-6bcb-4cf4-91b0-7e089ea3d3c1")
 		)
@@ -8815,6 +9103,15 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 356.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 356.87 72.39 0)
 			(effects
 				(font
@@ -8919,6 +9216,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 346.71 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4928ddc1-d3bf-4e54-afdc-845cf2d5e77b")
 		)
@@ -9007,6 +9313,15 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 40.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 40.64 71.12 0)
 			(effects
 				(font
@@ -9112,6 +9427,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 368.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c739374-c36c-4350-bcdf-0f04e0a79467")
 		)
@@ -9208,6 +9532,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 346.71 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3cde799-5b2e-4314-bf67-4f5b8127c653")
 		)
@@ -9296,6 +9629,15 @@
 			)
 		)
 		(property "LCSC" "C25105"
+			(at 316.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 316.23 78.74 0)
 			(effects
 				(font
@@ -9401,6 +9743,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 176.53 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08fd225e-c50e-4a33-acca-183abd031059")
 		)
@@ -9463,6 +9814,15 @@
 		)
 		(property "Description" "test point"
 			(at 316.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 316.23 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9546,6 +9906,15 @@
 			)
 		)
 		(property "PARTNO" ""
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 171.45 58.42 0)
 			(effects
 				(font
@@ -9651,6 +10020,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 167.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "185f0022-1e8b-4cbc-a7a5-1c04c6009023")
 		)
@@ -9739,6 +10117,15 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 40.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 40.64 186.69 0)
 			(effects
 				(font
@@ -9844,6 +10231,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 270.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "078475b3-8960-44b9-9ec1-22c3ae7fcd12")
 		)
@@ -9906,6 +10302,15 @@
 		)
 		(property "Description" "test point"
 			(at 325.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 325.12 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10006,6 +10411,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 40.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "821a534c-3a4e-4910-a953-e3c49f378910")
 		)
@@ -10076,6 +10490,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 185.42 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "caeccb25-176b-4f2b-9bd7-4e19f19be4a7")
 		)
@@ -10136,6 +10559,15 @@
 		)
 		(property "Description" "test point"
 			(at 203.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 203.2 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,6 +10668,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 228.6 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d666783-a0e7-4cc1-a0cd-8133837cd65b")
 		)
@@ -10306,6 +10747,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 194.31 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a872fbe7-7385-493a-89af-cd37958f70e3")
 		)
@@ -10365,6 +10815,15 @@
 		)
 		(property "Description" "test point"
 			(at 176.53 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 176.53 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,6 +10916,15 @@
 			)
 		)
 		(property "LCSC" "C25105"
+			(at 176.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 176.53 134.62 0)
 			(effects
 				(font
@@ -10562,6 +11030,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 185.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a38d5132-9af8-4b6b-ad7c-6f6d12095ee9")
 		)
@@ -10651,6 +11128,15 @@
 			)
 		)
 		(property "LCSC" "C25105"
+			(at 212.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 212.09 87.63 0)
 			(effects
 				(font
@@ -10756,6 +11242,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 194.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdf911a5-9574-4a2c-95fd-a55e55158dbb")
 		)
@@ -10843,6 +11338,15 @@
 			)
 		)
 		(property "ALT1" "LDK120M08R"
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 120.65 124.46 0)
 			(effects
 				(font
@@ -10957,6 +11461,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 203.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5611c40-68f0-425f-8ab2-da46ac7b07c2")
 		)
@@ -11045,6 +11558,15 @@
 			)
 		)
 		(property "LCSC" "C25105"
+			(at 334.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 334.01 78.74 0)
 			(effects
 				(font
@@ -11149,6 +11671,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2aca70bb-3294-4ea7-9039-1f0d73c5cada")
 		)
@@ -11245,6 +11776,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 212.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "add0ffbc-ea46-430a-b7a9-7f02dd3f6e35")
 		)
@@ -11315,6 +11855,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 83.82 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ab3209f-9f36-4023-9201-795101e61fb5")
 		)
@@ -11374,6 +11923,15 @@
 		)
 		(property "Description" "test point"
 			(at 194.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 194.31 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11474,6 +12032,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 220.98 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48a2a40a-363c-42ed-882d-72c0d84e8b43")
 		)
@@ -11562,6 +12129,15 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 220.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 220.98 93.98 0)
 			(effects
 				(font
@@ -11667,6 +12243,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65631aa1-93d7-4155-8c0c-54d55cc691f6")
 		)
@@ -11755,6 +12340,15 @@
 			)
 		)
 		(property "LCSC" "C60488"
+			(at 292.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 292.1 101.6 0)
 			(effects
 				(font
@@ -11859,6 +12453,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 299.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58981b11-150e-4340-b18b-3301d86a6602")
 		)
@@ -11947,6 +12550,15 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 101.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 101.6 129.54 0)
 			(effects
 				(font
@@ -12051,6 +12663,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 346.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6755d0cd-da2f-411c-a7e2-4799a7f15814")
 		)
@@ -12139,6 +12760,15 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 228.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 228.6 149.86 0)
 			(effects
 				(font
@@ -12244,6 +12874,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 74.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c1b2671-b120-4fec-8f52-1123b79f035a")
 		)
@@ -12306,6 +12945,15 @@
 		)
 		(property "Description" ""
 			(at 259.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 248.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12479,6 +13127,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 59.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "150d7793-de74-4509-a20a-2c6a920a9a98")
 		)
@@ -12550,6 +13207,15 @@
 		)
 		(property "Description" "test point"
 			(at 212.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 212.09 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12651,6 +13317,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "291fa7cb-3528-4eda-88fe-b35a58a669e4")
 		)
@@ -12713,6 +13388,15 @@
 		)
 		(property "Description" ""
 			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 248.92 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12889,6 +13573,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 368.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "771856a9-a165-4e5d-a939-d9c394dacd4e")
 		)
@@ -12986,6 +13679,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field6" ""
+			(at 368.3 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dffc73af-f33d-4b4e-aafd-810e0b0b52b5")
 		)
@@ -13072,6 +13774,15 @@
 			)
 		)
 		(property "ALT1" "LDK120M12R"
+			(at 59.69 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 59.69 181.61 0)
 			(effects
 				(font
