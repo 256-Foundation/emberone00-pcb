@@ -361,4 +361,15 @@
 		(uuid "0cd2c45e-11e5-4e16-99cb-769e47914c12")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/NVMFS5C645NLAFT1G.stp"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

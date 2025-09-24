@@ -185,4 +185,15 @@
 		(uuid "4f8becf1-f7c9-4141-9b03-4fc86aa0df90")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/Coilcraft-XAL1580-741.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
