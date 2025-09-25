@@ -1637,7 +1637,7 @@
 		)
 		(uuid "98a5810e-a8f0-4235-9280-e888dfd56a38")
 	)
-	(label "3V6"
+	(label "VDD"
 		(at 318.77 143.51 180)
 		(effects
 			(font
@@ -1677,7 +1677,7 @@
 		)
 		(uuid "c1f5417c-c18b-4287-a2da-5115ecf786db")
 	)
-	(label "3V6"
+	(label "VDD"
 		(at 187.96 110.49 180)
 		(effects
 			(font
@@ -3745,8 +3745,8 @@
 		)
 	)
 	(sheet
-		(at 151.13 78.74)
-		(size 29.21 35.56)
+		(at 151.13 76.2)
+		(size 29.21 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3760,7 +3760,7 @@
 		)
 		(uuid "77c510ef-c2c8-433b-9442-e0d7684769dc")
 		(property "Sheetname" "Power"
-			(at 151.13 78.0284 0)
+			(at 151.13 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3769,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 151.13 114.808 0)
+			(at 151.13 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)

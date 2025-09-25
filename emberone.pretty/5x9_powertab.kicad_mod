@@ -88,7 +88,7 @@
 	(pad "1" smd rect
 		(at 0 0)
 		(size 9 5)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu")
 		(thermal_bridge_angle 45)
 		(uuid "dab5ce6d-da5f-4a1c-a7af-4b2458be3d5d")
 	)
