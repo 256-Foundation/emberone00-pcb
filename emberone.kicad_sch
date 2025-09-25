@@ -729,7 +729,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 95.25) (xy 238.76 95.25)
+			(xy 180.34 97.79) (xy 238.76 97.79)
 		)
 		(stroke
 			(width 0)
@@ -759,7 +759,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 97.79) (xy 238.76 97.79)
+			(xy 180.34 100.33) (xy 238.76 100.33)
 		)
 		(stroke
 			(width 0)
@@ -839,7 +839,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 90.17) (xy 238.76 90.17)
+			(xy 180.34 92.71) (xy 238.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1089,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 87.63) (xy 238.76 87.63)
+			(xy 180.34 90.17) (xy 238.76 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1309,7 +1309,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 92.71) (xy 238.76 92.71)
+			(xy 180.34 95.25) (xy 238.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1356,6 +1356,16 @@
 			(type default)
 		)
 		(uuid "d29a7858-f297-41cb-bbba-63c3477ff607")
+	)
+	(wire
+		(pts
+			(xy 180.34 85.09) (xy 238.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f2425c-11aa-42f5-8473-f4f6e0a6a44b")
 	)
 	(wire
 		(pts
@@ -3798,7 +3808,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 180.34 90.17 0)
+			(at 180.34 92.71 0)
 			(uuid "ee4879a0-f118-46a6-9ff5-ea70e3ff00f3")
 			(effects
 				(font
@@ -3808,7 +3818,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 180.34 92.71 0)
+			(at 180.34 95.25 0)
 			(uuid "684bfad8-2706-48f8-a7e1-3d0df73126d4")
 			(effects
 				(font
@@ -3818,7 +3828,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 180.34 87.63 0)
+			(at 180.34 90.17 0)
 			(uuid "78d5a515-5f2d-487a-81b1-67b133c7ade7")
 			(effects
 				(font
@@ -3828,7 +3838,7 @@
 			)
 		)
 		(pin "PGOOD" output
-			(at 180.34 95.25 0)
+			(at 180.34 97.79 0)
 			(uuid "1f4672c0-584e-457b-bd60-6f00f76318d6")
 			(effects
 				(font
@@ -3838,8 +3848,18 @@
 			)
 		)
 		(pin "SMB_ALRT" output
-			(at 180.34 97.79 0)
+			(at 180.34 100.33 0)
 			(uuid "22ea28ce-38df-452e-8f74-7262f54550dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN_REV" output
+			(at 180.34 85.09 0)
+			(uuid "1ec0d8c9-9113-4535-8fcf-30c63f996210")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4244,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 238.76 90.17 180)
+			(at 238.76 92.71 180)
 			(uuid "cf7310a5-14f9-4bea-aaf6-d4c6a8262a93")
 			(effects
 				(font
@@ -4234,7 +4254,7 @@
 			)
 		)
 		(pin "SCL" output
-			(at 238.76 92.71 180)
+			(at 238.76 95.25 180)
 			(uuid "27f8bbc8-ce3a-4e8c-ba95-4c973970a5e1")
 			(effects
 				(font
@@ -4294,7 +4314,7 @@
 			)
 		)
 		(pin "PWR_EN" output
-			(at 238.76 87.63 180)
+			(at 238.76 90.17 180)
 			(uuid "4c67b69e-c2bb-4aa5-a52e-01c48d61068c")
 			(effects
 				(font
@@ -4324,7 +4344,7 @@
 			)
 		)
 		(pin "PGOOD" input
-			(at 238.76 95.25 180)
+			(at 238.76 97.79 180)
 			(uuid "209dfeb2-91aa-436b-abf2-be6dedf258b8")
 			(effects
 				(font
@@ -4334,7 +4354,7 @@
 			)
 		)
 		(pin "SMB_ALRT" input
-			(at 238.76 97.79 180)
+			(at 238.76 100.33 180)
 			(uuid "72122749-55cc-4781-af5c-c1ecf8a86c50")
 			(effects
 				(font
@@ -4351,6 +4371,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VIN_REV" input
+			(at 238.76 85.09 180)
+			(uuid "bb409a65-72e4-41e5-9b01-d0803feeb3ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

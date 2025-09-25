@@ -4958,6 +4958,17 @@
 		)
 		(uuid "b3d25d30-a482-4bef-8029-958ca1db19ea")
 	)
+	(hierarchical_label "VIN_REV"
+		(shape output)
+		(at 198.12 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc7a9c56-a734-4604-973b-2c90ebdc4015")
+	)
 	(hierarchical_label "VDD"
 		(shape output)
 		(at 93.98 191.77 180)
