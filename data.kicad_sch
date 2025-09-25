@@ -10846,6 +10846,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C106235"
+			(at 201.93 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c2b147b-56d2-4518-870a-547d2dce9180")
 		)
@@ -11712,7 +11721,7 @@
 		(at 336.55 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b6f89520-bd4f-4f8b-96af-1b6115de2226")

@@ -579,7 +579,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Manufacturing Files/emberone BOM.csv",
+    "bom_export_filename": "Manufacturing Files/${PROJECTNAME} BOM.csv",
     "bom_fmt_presets": [
       {
         "field_delimiter": ",",
