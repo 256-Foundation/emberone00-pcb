@@ -7128,7 +7128,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS546D24ARVFR"
+		(property "Value" "TPS546D24S"
 			(at 236.22 95.25 0)
 			(effects
 				(font
@@ -7145,7 +7145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps546d24a.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps546d24s.pdf"
 			(at 236.22 100.33 0)
 			(effects
 				(font
@@ -7163,7 +7163,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "296-TPS546D24ARVFRCT-ND"
+		(property "DK" "296-TPS546D24SRVFRCT-ND"
 			(at 236.22 97.79 0)
 			(effects
 				(font
@@ -7172,7 +7172,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "TPS546D24ARVFR"
+		(property "PARTNO" "TPS546D24SRVFR"
 			(at 236.22 95.25 0)
 			(effects
 				(font
