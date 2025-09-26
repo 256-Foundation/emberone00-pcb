@@ -10002,6 +10002,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "1528-4691-ND-$$$$$"
+			(at 297.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "SK6812SIDE-A-RVS"
+			(at 297.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "c92a76c3-a3a4-4693-af39-4aa6c724db56")
 		)

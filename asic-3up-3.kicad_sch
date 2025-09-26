@@ -9190,7 +9190,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "5852-SX3M25.000E20F30THNTR-ND"
 			(at 160.02 44.45 0)
 			(effects
 				(font
@@ -9505,6 +9505,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 260.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
 			(at 260.35 111.76 0)
 			(effects
 				(font
@@ -12271,6 +12280,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 260.35 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
 			(at 260.35 167.64 0)
 			(effects
 				(font
@@ -15644,6 +15662,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 260.35 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
 			(at 260.35 223.52 0)
 			(effects
 				(font

@@ -6062,6 +6062,15 @@
 				(hide yes)
 			)
 		)
+		(property "PARTNO" "BM1362AC"
+			(at 248.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "a09b7f9b-3b15-45cb-a3cc-5a098bd06c1b")
 		)
@@ -7042,6 +7051,15 @@
 				(hide yes)
 			)
 		)
+		(property "PARTNO" "BM1362AC"
+			(at 248.92 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "5a26ea78-dd79-4eee-9767-18644cb2b0f2")
 		)
@@ -7763,6 +7781,15 @@
 			)
 		)
 		(property "Field6" ""
+			(at 248.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
 			(at 248.92 184.15 0)
 			(effects
 				(font
