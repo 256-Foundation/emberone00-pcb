@@ -129,6 +129,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
+		(aux_axis_origin 269.77 129.06)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -924,6 +925,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "beef4404-e090-42a4-9e42-a56536402374")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fe0a8f2-3458-4d50-b7e8-cc6d9c5998ab")
 			(effects
 				(font
 					(size 1 1)
@@ -6001,6 +6015,19 @@
 				)
 			)
 		)
+		(property "PARTNO" "BM1362AC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c9f37f4-c822-4f41-a2df-215197a72b4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b7ad7cc6-371f-46f9-875b-8b04bdc75b20/0082e347-9827-4948-9066-048eff144ed2")
 		(sheetname "/stack6/")
 		(sheetfile "asic-3up-2.kicad_sch")
@@ -6858,6 +6885,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb0923d2-617c-4279-8f89-7d53181e1eea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1cb4ea4-fcbd-4b21-962a-6efb0d77b672")
 			(effects
 				(font
 					(size 1 1)
@@ -9857,6 +9897,19 @@
 				)
 			)
 		)
+		(property "PARTNO" "BM1362AC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "455ed7f1-08a5-477d-84b7-aa1cb77df2f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/75fd7cab-4b1e-4fa4-8631-02e52962bbf8/e90d3c66-7732-4b97-95ed-24c1409f8ab2")
 		(sheetname "/stack7/")
 		(sheetfile "asic-3up-3.kicad_sch")
@@ -11007,6 +11060,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c76438d-0e65-47c9-9571-5e51d84a8270")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27f27996-f4ae-4b71-ab8c-3d7104995fd6")
 			(effects
 				(font
 					(size 1 1)
@@ -12375,6 +12441,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "356dc34b-50d6-4916-b6a9-1ea770cce73c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ffc34cf-9b16-412d-a216-f1d2aec7d571")
 			(effects
 				(font
 					(size 1 1)
@@ -15415,6 +15494,32 @@
 				)
 			)
 		)
+		(property "DK" "1528-4691-ND-$$$$$"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67ee15f5-8cee-474e-9d0a-3abb307a9e6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTNO" "SK6812SIDE-A-RVS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b19e0946-179c-4413-bef2-8b1e4a9baa01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e89e3a77-546a-4a35-b100-669149b20581/4dca252d-6da6-4f3b-a281-a191f9cbb29e")
 		(sheetname "/Data/")
 		(sheetfile "data.kicad_sch")
@@ -16972,6 +17077,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8e2800eb-ceb5-46f9-8ccf-d69163ddab61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fed9c4c-ea7e-44e9-8bca-e77d4306f94f")
 			(effects
 				(font
 					(size 1 1)
@@ -20603,6 +20721,19 @@
 				)
 			)
 		)
+		(property "PARTNO" "BM1362AC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd05c098-c9d0-4339-b6e8-1092c431da2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/75fd7cab-4b1e-4fa4-8631-02e52962bbf8/4c27be78-606a-406a-91ea-52e15980cd72")
 		(sheetname "/stack7/")
 		(sheetfile "asic-3up-3.kicad_sch")
@@ -22596,6 +22727,19 @@
 				)
 			)
 		)
+		(property "PARTNO" "BM1362AC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa438a53-4fe2-481a-99d6-d01f818ea5b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b7ad7cc6-371f-46f9-875b-8b04bdc75b20/e0792a65-4e9d-4037-ac70-403a96cc183d")
 		(sheetname "/stack6/")
 		(sheetfile "asic-3up-2.kicad_sch")
@@ -24057,6 +24201,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6d560950-3805-4b03-9aaf-0ff7fd658f57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b90cce7-827b-4bc9-b32d-5480bf8244c3")
 			(effects
 				(font
 					(size 1 1)
@@ -26380,14 +26537,14 @@
 			(at -2.89 -2.605 180)
 			(size 0.65 0.65)
 			(drill 0.65)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "8e120a82-bc73-433d-8faf-aa0878458995")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.89 -2.605 180)
 			(size 0.65 0.65)
 			(drill 0.65)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "7ee9312c-d14e-4669-bd12-8b125aff41ab")
 		)
 		(pad "A1B12" smd roundrect
@@ -28264,6 +28421,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c0ef5ab7-f9cd-4eb2-9117-eb808655b5f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23345848-b636-46b3-9ba6-9968a937c4ca")
 			(effects
 				(font
 					(size 1 1)
@@ -32696,6 +32866,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3dd9621d-e792-4a6e-8369-c6099010f59d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTNO" "BM1362AC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbc605bf-f710-4313-a0b0-5af58587aa9e")
 			(effects
 				(font
 					(size 1 1)
@@ -38724,7 +38907,7 @@
 				)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "399-A768KE107M1VLAE036CT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38737,7 +38920,7 @@
 				)
 			)
 		)
-		(property "PARTNO" ""
+		(property "PARTNO" "A768KE107M1VLAE036"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38750,7 +38933,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "35V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51335,7 +51518,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "09d2f2b0-3031-4814-a74f-5048389ca884")
-		(at 185.880545 168.356142 180)
+		(at 179.05 175.74 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP104"
@@ -89383,7 +89566,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DK" ""
+		(property "DK" "5852-SX3M25.000E20F30THNTR-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -181709,7 +181892,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "emberOne/00 v5"
+	(gr_text "emberOne/00 v6"
 		(at 119.47 82.45 0)
 		(layer "F.SilkS")
 		(uuid "0464cb62-3697-4452-9779-5406f790ccd0")
@@ -193489,6 +193672,30 @@
 		(uuid "fc6372c5-c1b5-403f-9620-6031a4744fb2")
 	)
 	(segment
+		(start 178.380545 173.030545)
+		(end 179.05 173.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 39)
+		(uuid "0958e5e6-1049-4f41-a2f1-7cca6219e906")
+	)
+	(segment
+		(start 178.380545 171.388642)
+		(end 178.380545 173.030545)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 39)
+		(uuid "1f2596e6-c508-400d-a399-55e07146ca64")
+	)
+	(segment
+		(start 179.05 173.7)
+		(end 179.05 175.74)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 39)
+		(uuid "8041d2a0-9089-4e0a-a5b8-0e85d96ca5c5")
+	)
+	(segment
 		(start 175.570545 170.276142)
 		(end 175.225545 170.621142)
 		(width 0.2)
@@ -193513,6 +193720,14 @@
 		(uuid "f9f4a610-1161-4616-bf84-87024586d2f3")
 	)
 	(via
+		(at 179.05 175.74)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 39)
+		(uuid "4ccec417-3475-4fa6-b897-4845b5d1f122")
+	)
+	(via
 		(at 175.570545 170.276142)
 		(size 0.5)
 		(drill 0.3)
@@ -193520,29 +193735,13 @@
 		(net 39)
 		(uuid "573246ac-7107-4c3a-9b28-4f5c15066257")
 	)
-	(segment
-		(start 185.173439 168.356142)
-		(end 183.493439 170.036142)
-		(width 0.2)
-		(layer "B.Cu")
+	(via
+		(at 178.380545 171.388642)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
 		(net 39)
-		(uuid "0aa2bc1f-fc6b-472c-abf4-885ebcc9281a")
-	)
-	(segment
-		(start 180.840545 170.036142)
-		(end 180.070545 170.806142)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 39)
-		(uuid "0ed6fb13-7f10-41a4-ba60-74e725bbb3c3")
-	)
-	(segment
-		(start 185.880545 168.356142)
-		(end 185.173439 168.356142)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 39)
-		(uuid "1fc01816-86aa-41fb-9a5c-a220328cdc08")
+		(uuid "d4b89421-c51d-4984-9592-15569129e536")
 	)
 	(segment
 		(start 175.633045 170.316142)
@@ -193551,14 +193750,6 @@
 		(layer "B.Cu")
 		(net 39)
 		(uuid "333aebdc-ece2-44f8-a299-0d92c4d9251c")
-	)
-	(segment
-		(start 180.060545 170.918642)
-		(end 179.700545 170.918642)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 39)
-		(uuid "6c0c709b-4c8b-48f6-920a-c21f4c2eafcb")
 	)
 	(segment
 		(start 177.110545 170.026142)
@@ -193607,14 +193798,6 @@
 		(layer "B.Cu")
 		(net 39)
 		(uuid "cdedd41e-f63c-4e41-a900-e286e8aca82f")
-	)
-	(segment
-		(start 183.493439 170.036142)
-		(end 180.840545 170.036142)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 39)
-		(uuid "dc7d0cbd-050a-420c-9c89-d697a9e179bb")
 	)
 	(segment
 		(start 177.720545 169.706142)
