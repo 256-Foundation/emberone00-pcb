@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.4,
-          "width": 0.4
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -64,23 +64,15 @@
           ""
         ],
         [
-          "clearance|168140500|119825000|df56eda0-bf88-4c66-9bbe-c5fa876d4a5c|508965df-2417-4fc6-bb89-94ec2fe1d3d1",
-          ""
-        ],
-        [
           "clearance|168205000|119825000|3aec2f3f-b4d4-4f50-ba6e-5f483e1fdd2e|df56eda0-bf88-4c66-9bbe-c5fa876d4a5c",
           ""
         ],
         [
-          "clearance|168210500|119825000|3aec2f3f-b4d4-4f50-ba6e-5f483e1fdd2e|508965df-2417-4fc6-bb89-94ec2fe1d3d1",
+          "clearance|168372500|116612500|03b48cb5-5133-4cfe-93fa-dd005f751480|5fc29d01-5b49-4675-9b68-d3168304e2cb",
           ""
         ],
         [
-          "clearance|168410000|119825000|ffc82cf5-4de5-4771-83d1-43613202487a|508965df-2417-4fc6-bb89-94ec2fe1d3d1",
-          ""
-        ],
-        [
-          "missing_courtyard|161740000|141940000|8a6b6271-fc68-4fe4-9855-368d3f396c19|00000000-0000-0000-0000-000000000000",
+          "clearance|168410000|119825000|0fb48ec9-e5fe-49cd-b264-1ee797efcd98|508965df-2417-4fc6-bb89-94ec2fe1d3d1",
           ""
         ],
         [
@@ -92,63 +84,11 @@
           ""
         ],
         [
-          "starved_thermal|172460000|118170000|3c749e1d-2351-41eb-a572-3d3a2464f040|bafdb2be-2352-46a3-a30d-4aa562b838c4|In1.Cu",
+          "shorting_items|168140500|119825000|508965df-2417-4fc6-bb89-94ec2fe1d3d1|df56eda0-bf88-4c66-9bbe-c5fa876d4a5c",
           ""
         ],
         [
-          "starved_thermal|172460000|118170000|3c749e1d-2351-41eb-a572-3d3a2464f040|bafdb2be-2352-46a3-a30d-4aa562b838c4|In4.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|172460000|118170000|6a2d4192-4be2-492d-a25b-e4ed739d7af0|bafdb2be-2352-46a3-a30d-4aa562b838c4|In3.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|172460000|118170000|9a3b1602-1c81-4be0-b1fb-23110b0c40ff|bafdb2be-2352-46a3-a30d-4aa562b838c4|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|172460000|118170000|9a3b1602-1c81-4be0-b1fb-23110b0c40ff|bafdb2be-2352-46a3-a30d-4aa562b838c4|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|172460000|120730000|3c749e1d-2351-41eb-a572-3d3a2464f040|f370d005-dfa6-4834-914f-a5126767ca02|In1.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|172460000|120730000|3c749e1d-2351-41eb-a572-3d3a2464f040|f370d005-dfa6-4834-914f-a5126767ca02|In4.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|172460000|120730000|6a2d4192-4be2-492d-a25b-e4ed739d7af0|f370d005-dfa6-4834-914f-a5126767ca02|In3.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|172460000|120730000|9a3b1602-1c81-4be0-b1fb-23110b0c40ff|f370d005-dfa6-4834-914f-a5126767ca02|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|172460000|120730000|9a3b1602-1c81-4be0-b1fb-23110b0c40ff|f370d005-dfa6-4834-914f-a5126767ca02|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|173460000|119450000|3c749e1d-2351-41eb-a572-3d3a2464f040|a186f841-1af2-443b-8596-ba0ed6e47c2d|In1.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|173460000|119450000|3c749e1d-2351-41eb-a572-3d3a2464f040|a186f841-1af2-443b-8596-ba0ed6e47c2d|In4.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|173460000|119450000|6a2d4192-4be2-492d-a25b-e4ed739d7af0|a186f841-1af2-443b-8596-ba0ed6e47c2d|In3.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|173460000|119450000|9a3b1602-1c81-4be0-b1fb-23110b0c40ff|a186f841-1af2-443b-8596-ba0ed6e47c2d|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|173460000|119450000|9a3b1602-1c81-4be0-b1fb-23110b0c40ff|a186f841-1af2-443b-8596-ba0ed6e47c2d|F.Cu",
+          "shorting_items|168210500|119825000|3aec2f3f-b4d4-4f50-ba6e-5f483e1fdd2e|508965df-2417-4fc6-bb89-94ec2fe1d3d1",
           ""
         ]
       ],
@@ -638,7 +578,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 990,
+    "annotate_start_num": 0,
     "bom_export_filename": "Manufacturing Files/${PROJECTNAME} BOM.csv",
     "bom_fmt_presets": [
       {
@@ -692,7 +632,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -752,6 +692,18 @@
           "group_by": false,
           "label": "Voltage",
           "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         }
       ],

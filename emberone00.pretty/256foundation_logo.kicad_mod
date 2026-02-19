@@ -683,5 +683,16 @@
 		(layer "F.SilkS")
 		(uuid "68f1394e-4319-49e9-b2a5-072c01e60bf4")
 	)
+	(fp_rect
+		(start -33.988 -35.874)
+		(end 0.303 0.652)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8aecf9d0-5f46-438e-98ff-a7f60e14ed86")
+	)
 	(embedded_fonts no)
 )

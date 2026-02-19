@@ -1519,6 +1519,26 @@
 		)
 		(uuid "0b5ba448-5f50-4c94-9946-453e0c695277")
 	)
+	(label "VDDIO"
+		(at 156.21 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d6efbad-3b1c-48cb-ac98-a509b9d0e9f4")
+	)
+	(label "VDDIO"
+		(at 213.36 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d91ecea-4198-4828-afae-f1b426db547c")
+	)
 	(label "GND"
 		(at 128.27 88.9 180)
 		(effects
@@ -1528,16 +1548,6 @@
 			(justify right bottom)
 		)
 		(uuid "0f68c994-4818-4c31-9991-b6dfba308076")
-	)
-	(label "5V_SWITCH"
-		(at 156.21 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b0d75bc-4340-45f7-919e-fb2e24991ea2")
 	)
 	(label "RST"
 		(at 231.14 110.49 0)
@@ -1578,6 +1588,16 @@
 			(justify right bottom)
 		)
 		(uuid "41e80485-9a23-4521-ba53-923e7d357bd6")
+	)
+	(label "VDDIO"
+		(at 270.51 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58222a97-73d2-4ed4-8b51-1f5215cb4a24")
 	)
 	(label "RX"
 		(at 231.14 105.41 0)
@@ -1649,26 +1669,6 @@
 		)
 		(uuid "9da0f434-9782-4bdb-92b9-f8774b19817c")
 	)
-	(label "5V_SWITCH"
-		(at 270.51 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a3a47cec-43d9-44de-af38-4aa2fc7ed255")
-	)
-	(label "5V_SWITCH"
-		(at 213.36 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b42fa873-d206-459c-8570-bab2cede2265")
-	)
 	(label "3V3"
 		(at 101.6 147.32 0)
 		(effects
@@ -1689,7 +1689,7 @@
 		)
 		(uuid "c35b4f88-c3c8-4fe2-b320-d233af63c5af")
 	)
-	(label "5V_SWITCH"
+	(label "VDDIO"
 		(at 280.67 78.74 180)
 		(effects
 			(font
@@ -1719,7 +1719,7 @@
 		)
 		(uuid "fb39edc4-8f35-4ba9-aa07-f0204551cc8f")
 	)
-	(label "5V_SWITCH"
+	(label "VDDIO"
 		(at 99.06 162.56 0)
 		(effects
 			(font
@@ -3537,7 +3537,7 @@
 			)
 		)
 		(instances
-			(project "emberone"
+			(project "emberone00"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
 					(page "10")
 				)
@@ -3739,7 +3739,7 @@
 			)
 		)
 		(instances
-			(project "emberone"
+			(project "emberone00"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
 					(page "12")
 				)
@@ -3870,7 +3870,7 @@
 			)
 		)
 		(instances
-			(project "emberone"
+			(project "emberone00"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
 					(page "2")
 				)
@@ -4062,7 +4062,7 @@
 			)
 		)
 		(instances
-			(project "emberone"
+			(project "emberone00"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
 					(page "11")
 				)
@@ -4204,7 +4204,7 @@
 			)
 		)
 		(instances
-			(project "emberone"
+			(project "emberone00"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
 					(page "9")
 				)
@@ -4365,16 +4365,6 @@
 				(justify left)
 			)
 		)
-		(pin "5V_SWITCH" output
-			(at 269.24 78.74 0)
-			(uuid "ba611484-179c-48c2-bcc9-691428be1aa3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VIN_REV" input
 			(at 238.76 85.09 180)
 			(uuid "bb409a65-72e4-41e5-9b01-d0803feeb3ae")
@@ -4385,8 +4375,18 @@
 				(justify left)
 			)
 		)
+		(pin "VDDIO" output
+			(at 269.24 78.74 0)
+			(uuid "63799700-6676-442b-af7f-e61973eebe92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
-			(project "emberone"
+			(project "emberone00"
 				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2"
 					(page "8")
 				)
