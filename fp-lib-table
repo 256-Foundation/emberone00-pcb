@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "aditBoard")(type "KiCad")(uri "${KIPRJMOD}/aditBoard.pretty")(options "")(descr ""))
   (lib (name "bitaxe")(type "KiCad")(uri "${KIPRJMOD}/bitaxe.pretty")(options "")(descr ""))
-  (lib (name "emberone")(type "KiCad")(uri "${KIPRJMOD}/emberone.pretty")(options "")(descr ""))
+  (lib (name "emberone")(type "KiCad")(uri "${KIPRJMOD}/emberone00.pretty")(options "")(descr ""))
 )

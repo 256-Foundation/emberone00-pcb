@@ -587,7 +587,7 @@
     ]
   },
   "meta": {
-    "filename": "emberone.kicad_pro",
+    "filename": "emberone00.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -790,7 +790,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "emberone.kicad_wks",
+    "page_layout_descr_file": "emberone00.kicad_wks",
     "plot_directory": "Manufacturing Files/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
