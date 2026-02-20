@@ -4994,18 +4994,18 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -16.002 7.874 0)
+			(at -8.128 9.906 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "W25Q16JVUXIQ TR"
-			(at 9.398 -10.668 0)
+			(at 7.112 -10.16 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5085,97 +5085,7 @@
 		)
 		(symbol "W25Q16JVUXIQ_TR_0_1"
 			(pin unspecified line
-				(at -19.05 3.81 0)
-				(length 2.56)
-				(name "/CS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -19.05 1.27 0)
-				(length 2.56)
-				(name "DO(IO1)"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -19.05 -1.27 0)
-				(length 2.56)
-				(name "/WP(IO2)"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -19.05 -3.81 0)
-				(length 2.56)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 19.05 3.81 180)
-				(length 2.56)
-				(name "EPAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 19.05 1.27 180)
+				(at -11.43 6.35 0)
 				(length 2.56)
 				(name "VCC"
 					(effects
@@ -5193,25 +5103,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 19.05 -1.27 180)
-				(length 2.56)
-				(name "/HOLDOR/RESET(IO3)"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 19.05 -3.81 180)
+				(at -11.43 -6.35 0)
 				(length 2.56)
 				(name "CLK"
 					(effects
@@ -5229,9 +5121,58 @@
 				)
 			)
 			(pin unspecified line
-				(at 19.05 -6.35 180)
+				(at 11.43 -6.35 180)
 				(length 2.56)
-				(name "DI(IO0)"
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "W25Q16JVUXIQ_TR_1_1"
+			(rectangle
+				(start -8.89 8.89)
+				(end 8.89 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified inverted
+				(at -11.43 -3.81 0)
+				(length 2.56)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 6.35 180)
+				(length 2.56)
+				(name "SD0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5246,17 +5187,77 @@
 					)
 				)
 			)
-		)
-		(symbol "W25Q16JVUXIQ_TR_1_1"
-			(rectangle
-				(start -16.51 6.35)
-				(end 16.51 -8.89)
-				(stroke
-					(width 0)
-					(type default)
+			(pin unspecified line
+				(at 11.43 3.81 180)
+				(length 2.56)
+				(name "SD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type background)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 1.27 180)
+				(length 2.56)
+				(name "SD2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -1.27 180)
+				(length 2.56)
+				(name "SD3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -6.35 180)
+				(length 2.56)
+				(hide yes)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
