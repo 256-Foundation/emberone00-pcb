@@ -6,8 +6,7 @@ A 100W open source ASIC Bitcoin mining hashboard.
 
 - Wide 12-17VDC input voltage.
 - Separate, USB connected control board required.
-	- Firmware support coming soon in [Mujina Firmware](https://mujina.org)
-	- Initial testing emberOne firmware support (hacked into) [PiAxe/Pyminer fork](https://github.com/skot/emberone-miner/tree/emberone-BM1362-support)
+	- Firmware support in [Mujina Firmware](https://github.com/256foundation/mujina/)
 - Onboard RP2040 usbserial converter [firmware](https://github.com/256-Foundation/emberone-usbserial-fw)
 
 The emberOne/00 is designed with twelve BM1362AC from the Bitmain Antminer S19j Pro (see notes below). All of the chips are powered in series. It should reach about 3.5 TH/s
@@ -20,3 +19,8 @@ The emberOne/00 uses the Bitmain BM1362 chips from the S19j Pro. Make sure to us
 
 ## Hacking
 emberOne design files are built using the incredible, FOSS PCB CAD software [KiCad](https://kicad.org). Please fork, hack and release!
+
+## License
+The emberOne is open source. Licensed under the [CERN-OHL-S-2.0](LICENSE). You are free to use, modify, understand and distribute this project. You must release the source of any changes under the same license.
+
+©️ [256 Foundation](https://256foundation.org)
