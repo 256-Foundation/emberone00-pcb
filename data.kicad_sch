@@ -965,267 +965,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND24_common"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at 3.175 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Crystal_GND24_common"
-				(at 3.175 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 4"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Crystal_GND24_common_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.27) (xy -2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND24_common_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(hide yes)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Schottky_Filled"
 			(pin_numbers
 				(hide yes)
@@ -4263,163 +4002,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "athvfd:SK6812SIDE-A-RVS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -4.572 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SK6812"
-				(at 1.778 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "athvfd:LED-SMD_4P-L4.0-W1.6-L"
-				(at 9.906 -10.922 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
-				(at -1.778 -8.636 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at -7.62 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C2890037"
-				(at 8.128 -12.954 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SK6812SIDE-A-RVS_1_1"
-				(rectangle
-					(start -5.08 2.54)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 -1.27 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 -1.27 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bitaxe:GT-TC029B-H025-L1N"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4597,7 +4179,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U15"
+			(property "Reference" "U6"
 				(at 0 11.938 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4617,7 +4199,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm"
+			(property "Footprint" "bitaxe:HVSSOP-8_3x3mm_P0.65mm"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4665,6 +4247,17 @@
 			)
 			(property "PARTNO" "TMP1075DGKR"
 				(at -1.524 -20.828 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field6" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4855,6 +4448,309 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "emberone:Crystal_GND24_common"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y1"
+				(at 0 7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "12MHz"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "emberone:XTAL_ECS-120-20-33-CKM-TR3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTNO" "ECS-120-20-33-CKM-TR3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DK" "50-ECS-120-20-33-CKM-TR3CT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C9002"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field6" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_common_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_common_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(hide yes)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "emberone:MCP121T-315E_LB"
 			(pin_names
 				(offset 0.254)
@@ -5022,6 +4918,196 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "emberone:SK6812SIDE-A-RVS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U9"
+				(at -3.81 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6812"
+				(at 1.778 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "emberone:LED-SMD_4P-L4.0-W1.6-L"
+				(at 9.906 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
+				(at -1.778 -8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at -7.62 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2890037"
+				(at 8.128 -12.954 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field6" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DK" "1528-4691-ND-$$$$$"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTNO" "SK6812SIDE-A-RVS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SK6812SIDE-A-RVS_1_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6117,7 +6203,7 @@
 		(uuid "0f49f5ef-cde5-49ee-b8ab-041e7e0f810c")
 	)
 	(junction
-		(at 302.26 129.54)
+		(at 314.96 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11989591-0b42-49d3-a8c2-82f0c5b0a094")
@@ -6219,7 +6305,7 @@
 		(uuid "4e476eca-d1c3-47c6-aa75-57fb9ee25c29")
 	)
 	(junction
-		(at 285.75 119.38)
+		(at 298.45 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "514841e8-b37f-43f8-bcd6-12ba976d4cc4")
@@ -6267,7 +6353,7 @@
 		(uuid "646aa710-b066-437f-a7a5-0f08f385ee58")
 	)
 	(junction
-		(at 292.1 119.38)
+		(at 304.8 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6482121c-1f44-4fc1-9b68-8941ab42edbf")
@@ -6303,7 +6389,7 @@
 		(uuid "72b61746-64e9-4579-8f23-1f209a187ddf")
 	)
 	(junction
-		(at 292.1 107.95)
+		(at 304.8 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "731f0bca-94af-4a5c-bf66-2a963968ea20")
@@ -6339,7 +6425,7 @@
 		(uuid "a26fb7db-fa2b-49c3-bc07-a3f824e89853")
 	)
 	(junction
-		(at 285.75 121.92)
+		(at 298.45 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7bc9712-bdb1-4647-9778-a567facbe9d6")
@@ -6351,7 +6437,7 @@
 		(uuid "a8c31c18-d768-4809-aa9c-968ebf8868ee")
 	)
 	(junction
-		(at 292.1 124.46)
+		(at 304.8 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a94ee01d-3ca6-4da3-922a-8e137c8bdd7b")
@@ -6676,7 +6762,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 127) (xy 308.61 127)
+			(xy 262.89 127) (xy 321.31 127)
 		)
 		(stroke
 			(width 0)
@@ -6996,7 +7082,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 118.11) (xy 302.26 129.54)
+			(xy 314.96 118.11) (xy 314.96 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7016,7 +7102,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 124.46) (xy 308.61 124.46)
+			(xy 304.8 124.46) (xy 321.31 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7546,7 +7632,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 107.95) (xy 302.26 110.49)
+			(xy 314.96 107.95) (xy 314.96 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7626,7 +7712,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 114.3) (xy 270.51 114.3)
+			(xy 262.89 114.3) (xy 276.86 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7636,7 +7722,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 121.92) (xy 285.75 121.92)
+			(xy 262.89 121.92) (xy 298.45 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7766,7 +7852,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 129.54) (xy 302.26 129.54)
+			(xy 262.89 129.54) (xy 314.96 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7906,7 +7992,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 107.95) (xy 285.75 110.49)
+			(xy 298.45 107.95) (xy 298.45 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8146,7 +8232,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 129.54) (xy 308.61 129.54)
+			(xy 314.96 129.54) (xy 321.31 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8176,7 +8262,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 121.92) (xy 308.61 121.92)
+			(xy 298.45 121.92) (xy 321.31 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8196,7 +8282,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 118.11) (xy 292.1 119.38)
+			(xy 304.8 118.11) (xy 304.8 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8326,7 +8412,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 107.95) (xy 285.75 107.95)
+			(xy 304.8 107.95) (xy 298.45 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8346,7 +8432,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 119.38) (xy 292.1 124.46)
+			(xy 304.8 119.38) (xy 304.8 124.46)
 		)
 		(stroke
 			(width 0)
@@ -8446,7 +8532,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 118.11) (xy 285.75 119.38)
+			(xy 298.45 118.11) (xy 298.45 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8586,7 +8672,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 110.49) (xy 292.1 107.95)
+			(xy 304.8 110.49) (xy 304.8 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8606,7 +8692,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 107.95) (xy 292.1 107.95)
+			(xy 314.96 107.95) (xy 304.8 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8626,7 +8712,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 119.38) (xy 285.75 121.92)
+			(xy 298.45 119.38) (xy 298.45 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9186,7 +9272,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 124.46) (xy 292.1 124.46)
+			(xy 262.89 124.46) (xy 304.8 124.46)
 		)
 		(stroke
 			(width 0)
@@ -9305,7 +9391,7 @@
 		(uuid "ff8ce688-86f1-49bd-b732-3feb8c10d90c")
 	)
 	(label "SDA"
-		(at 270.51 121.92 180)
+		(at 275.59 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9514,7 +9600,7 @@
 		)
 		(uuid "48c64a2c-f329-4be9-b5c9-89531381459c")
 	)
-	(label "THERM"
+	(label "THERM_N"
 		(at 368.3 217.17 0)
 		(effects
 			(font
@@ -9524,7 +9610,7 @@
 		)
 		(uuid "49773df8-4f6f-4e22-ac7c-fa02cfcc590a")
 	)
-	(label "THERM"
+	(label "THERM_N"
 		(at 270.51 91.44 180)
 		(effects
 			(font
@@ -9654,8 +9740,8 @@
 		)
 		(uuid "72a19c79-c4bc-4aaa-b927-0e01247ab3bf")
 	)
-	(label "RST"
-		(at 270.51 114.3 180)
+	(label "CHAIN_RST_N"
+		(at 276.86 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9785,7 +9871,7 @@
 		(uuid "b84878e3-584c-4fea-b3b4-8be2767c2894")
 	)
 	(label "SCL"
-		(at 270.51 124.46 180)
+		(at 275.59 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9925,7 +10011,7 @@
 		(uuid "dd75e8d9-395d-4a77-9bc8-a7b694e7c8df")
 	)
 	(label "3V3"
-		(at 288.29 107.95 0)
+		(at 300.99 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9944,7 +10030,17 @@
 		)
 		(uuid "e0885b69-530e-428b-9a2a-bfc88d90c910")
 	)
-	(label "THERM"
+	(label "RUN_N"
+		(at 205.74 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9de5a89-6592-4db3-84cb-cfbabdd05870")
+	)
+	(label "THERM_N"
 		(at 306.07 215.9 0)
 		(effects
 			(font
@@ -10081,7 +10177,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape output)
-		(at 308.61 124.46 0)
+		(at 321.31 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10101,9 +10197,9 @@
 		)
 		(uuid "3c5fad18-1636-472d-b62b-9fbc7f5fe0fd")
 	)
-	(hierarchical_label "SMB_ALRT"
+	(hierarchical_label "SMB_ALRT_N"
 		(shape input)
-		(at 308.61 129.54 0)
+		(at 321.31 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10125,7 +10221,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 308.61 121.92 0)
+		(at 321.31 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10156,9 +10252,9 @@
 		)
 		(uuid "8baeecbb-5f05-4b55-ad31-a1d3c5920647")
 	)
-	(hierarchical_label "RST"
+	(hierarchical_label "CHAIN_RST_N"
 		(shape output)
-		(at 270.51 114.3 0)
+		(at 276.86 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10180,7 +10276,7 @@
 	)
 	(hierarchical_label "PGOOD"
 		(shape input)
-		(at 308.61 127 0)
+		(at 321.31 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10797,7 +10893,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 185.42 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10931,7 +11027,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 203.2 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11298,7 +11394,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 91.44 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11513,7 +11609,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 201.93 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11650,7 +11746,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 193.04 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11776,7 +11872,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 213.36 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11858,7 +11954,7 @@
 		)
 	)
 	(symbol
-		(lib_id "athvfd:SK6812SIDE-A-RVS")
+		(lib_id "emberone:SK6812SIDE-A-RVS")
 		(at 297.18 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -12495,7 +12591,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 355.6 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -12745,7 +12841,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 335.28 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12882,7 +12978,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 278.13 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13301,7 +13397,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 285.75 119.38 90)
+		(at 298.45 119.38 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -13312,7 +13408,7 @@
 		(dnp no)
 		(uuid "860ea375-4efb-46fd-8d9a-ca5743689e8a")
 		(property "Reference" "TP2"
-			(at 279.4 119.38 90)
+			(at 292.1 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13322,7 +13418,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 280.035 120.6499 90)
+			(at 292.735 120.6499 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13334,7 +13430,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 285.75 124.46 0)
+			(at 298.45 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13345,7 +13441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 124.46 0)
+			(at 298.45 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13355,8 +13451,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 285.75 119.38 0)
+		(property "Description" "test point"
+			(at 298.45 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13367,7 +13463,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 285.75 119.38 90)
+			(at 298.45 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13390,7 +13486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND24_common")
+		(lib_id "emberone:Crystal_GND24_common")
 		(at 173.99 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -13572,7 +13668,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 184.15 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13709,7 +13805,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 312.42 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -13845,7 +13941,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 71.12 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14189,7 +14285,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 289.56 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -14326,7 +14422,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 344.17 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -14451,7 +14547,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 109.22 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14685,7 +14781,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 279.4 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -14800,7 +14896,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 307.34 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14836,7 +14932,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 285.75 114.3 0)
+		(at 298.45 114.3 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14847,7 +14943,7 @@
 		(dnp no)
 		(uuid "be0b5a59-4731-4af9-aeeb-1e4db468aec4")
 		(property "Reference" "R19"
-			(at 283.21 113.0299 0)
+			(at 295.91 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14858,7 +14954,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 283.21 115.5699 0)
+			(at 295.91 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14869,7 +14965,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 284.734 114.554 90)
+			(at 297.434 114.554 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14880,7 +14976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 114.3 0)
+			(at 298.45 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14891,7 +14987,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 285.75 114.3 0)
+			(at 298.45 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14902,7 +14998,7 @@
 			)
 		)
 		(property "DK" "311-4.7KLRCT-ND"
-			(at 285.75 114.3 0)
+			(at 298.45 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14913,7 +15009,7 @@
 			)
 		)
 		(property "PARTNO" "RC0402FR-074K7L"
-			(at 285.75 114.3 0)
+			(at 298.45 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14924,7 +15020,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 285.75 114.3 0)
+			(at 298.45 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15002,7 +15098,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 255.27 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15136,7 +15232,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 279.4 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -15197,7 +15293,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 292.1 119.38 270)
+		(at 304.8 119.38 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15208,7 +15304,7 @@
 		(dnp no)
 		(uuid "c04db661-4b84-4bda-8747-b4763c235fb5")
 		(property "Reference" "TP1"
-			(at 298.45 119.38 90)
+			(at 311.15 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15218,7 +15314,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 297.815 118.1101 90)
+			(at 310.515 118.1101 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15230,7 +15326,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 292.1 114.3 0)
+			(at 304.8 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15241,7 +15337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 114.3 0)
+			(at 304.8 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15251,8 +15347,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 292.1 119.38 0)
+		(property "Description" "test point"
+			(at 304.8 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15263,7 +15359,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 292.1 119.38 90)
+			(at 304.8 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15340,7 +15436,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 226.06 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15573,7 +15669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 52.07 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15584,7 +15680,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1150/SMBJP6KE6.8%28C%29A-SMBJP6KE550%28C%29A%28DO-214AA%29.pdf"
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
 			(at 57.15 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15595,7 +15691,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 6.0Vr, SMA(DO-214AC)"
 			(at 57.15 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15689,7 +15785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "aditBoard:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "emberone:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 111.76 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15816,7 +15912,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 302.26 114.3 0)
+		(at 314.96 114.3 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15827,7 +15923,7 @@
 		(dnp no)
 		(uuid "ce365b47-0899-464a-b055-980a6645415e")
 		(property "Reference" "R1"
-			(at 304.8 115.5701 0)
+			(at 317.5 115.5701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15838,7 +15934,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 304.8 113.0301 0)
+			(at 317.5 113.0301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15849,7 +15945,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 303.276 114.046 90)
+			(at 315.976 114.046 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15860,7 +15956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 114.3 0)
+			(at 314.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15871,7 +15967,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 302.26 114.3 0)
+			(at 314.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15882,7 +15978,7 @@
 			)
 		)
 		(property "DK" "311-4.7KLRCT-ND"
-			(at 302.26 114.3 0)
+			(at 314.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15893,7 +15989,7 @@
 			)
 		)
 		(property "PARTNO" "RC0402FR-074K7L"
-			(at 302.26 114.3 0)
+			(at 314.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15904,7 +16000,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 302.26 114.3 0)
+			(at 314.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16194,7 +16290,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 266.7 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -16331,7 +16427,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 323.85 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -16414,7 +16510,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 292.1 114.3 0)
+		(at 304.8 114.3 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16425,7 +16521,7 @@
 		(dnp no)
 		(uuid "dce4f601-b94a-4b9b-8b6e-0a075cf25914")
 		(property "Reference" "R20"
-			(at 294.64 115.5701 0)
+			(at 307.34 115.5701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16436,7 +16532,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 294.64 113.0301 0)
+			(at 307.34 113.0301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16447,7 +16543,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 293.116 114.046 90)
+			(at 305.816 114.046 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16458,7 +16554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 114.3 0)
+			(at 304.8 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16469,7 +16565,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 292.1 114.3 0)
+			(at 304.8 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16480,7 +16576,7 @@
 			)
 		)
 		(property "DK" "311-4.7KLRCT-ND"
-			(at 292.1 114.3 0)
+			(at 304.8 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16491,7 +16587,7 @@
 			)
 		)
 		(property "PARTNO" "RC0402FR-074K7L"
-			(at 292.1 114.3 0)
+			(at 304.8 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16502,7 +16598,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 292.1 114.3 0)
+			(at 304.8 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16580,7 +16676,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 203.2 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -16717,7 +16813,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 294.64 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -16832,7 +16928,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 300.99 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17256,7 +17352,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, US symbol"
 			(at 82.55 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -17506,7 +17602,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 97.79 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -17644,7 +17740,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 162.56 138.43 0)
 			(hide yes)
 			(show_name no)

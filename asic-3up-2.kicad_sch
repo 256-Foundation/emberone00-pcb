@@ -608,172 +608,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCP1824_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MCP1824_1"
-				(at 5.08 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22070a.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MCP1824_1_0_1"
-				(rectangle
-					(start -7.62 3.81)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MCP1824_1_1_0"
-				(pin bidirectional line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -3.81 0)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bitaxe:MCP1824"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6207,7 +6041,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 143.51 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -6603,7 +6437,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 135.89 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6730,7 +6564,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 278.13 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6855,7 +6689,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 74.93 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7070,7 +6904,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 356.87 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -7714,7 +7548,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 135.89 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7786,7 +7620,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MCP1824_1")
 		(lib_id "bitaxe:MCP1824")
 		(at 120.65 66.04 0)
 		(unit 1)
@@ -7974,7 +7807,7 @@
 				)
 			)
 		)
-		(property "Description" "powertab"
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 254 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8064,7 +7897,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 143.51 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8224,7 +8057,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MCP1824_1")
 		(lib_id "bitaxe:MCP1824")
 		(at 120.65 181.61 0)
 		(unit 1)
@@ -8500,7 +8332,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 101.6 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8626,7 +8458,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 171.45 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8715,7 +8547,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 356.87 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8930,7 +8762,7 @@
 				)
 			)
 		)
-		(property "Description" "powertab"
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 254 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9235,7 +9067,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 143.51 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9325,7 +9157,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 83.82 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9415,7 +9247,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 83.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9754,7 +9586,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 356.87 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9879,7 +9711,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 346.71 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -10004,7 +9836,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 40.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10255,7 +10087,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 346.71 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10960,7 +10792,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 40.64 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11086,7 +10918,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 270.51 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11300,7 +11132,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 40.64 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11605,7 +11437,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 228.6 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -12358,7 +12190,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MCP1824_1")
 		(lib_id "bitaxe:MCP1824")
 		(at 120.65 124.46 0)
 		(unit 1)
@@ -12796,7 +12627,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 101.6 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13047,7 +12878,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 83.82 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13225,7 +13056,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 220.98 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -13350,7 +13181,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 220.98 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13475,7 +13306,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 135.89 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -13851,7 +13682,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 101.6 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -13976,7 +13807,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 346.71 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14101,7 +13932,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 228.6 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14226,7 +14057,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 74.93 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -14748,7 +14579,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 74.93 71.12 0)
 			(hide yes)
 			(show_name no)

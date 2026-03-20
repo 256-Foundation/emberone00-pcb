@@ -265,7 +265,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "Mechanical:Fiducial"
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
@@ -364,7 +364,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
@@ -467,7 +467,7 @@
 				(offset 1.016)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
@@ -1653,8 +1653,8 @@
 		)
 		(uuid "0f68c994-4818-4c31-9991-b6dfba308076")
 	)
-	(label "RST"
-		(at 231.14 110.49 0)
+	(label "CHAIN_RST_N"
+		(at 224.79 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1673,8 +1673,8 @@
 		)
 		(uuid "3f33d959-16b1-401c-9e44-6c0dfe39cb12")
 	)
-	(label "RST"
-		(at 101.6 156.21 0)
+	(label "CHAIN_RST_N"
+		(at 96.52 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2267,7 +2267,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 87.63 127 0)
 			(hide yes)
 			(show_name no)
@@ -2444,7 +2444,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 123.19 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -2711,7 +2711,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 101.6 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -2799,7 +2799,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 116.84 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2909,7 +2909,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 116.84 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3108,7 +3108,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 123.19 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -3372,7 +3372,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 85.09 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3462,7 +3462,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 123.19 210.185 0)
 			(hide yes)
 			(show_name no)
@@ -3549,7 +3549,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 123.19 217.805 0)
 			(hide yes)
 			(show_name no)
@@ -3726,7 +3726,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 82.55 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4094,7 +4094,7 @@
 				(justify right)
 			)
 		)
-		(pin "RST" input
+		(pin "CHAIN_RST_N" input
 			(at 110.49 156.21 180)
 			(uuid "6f80dca2-8d79-4d5b-afdf-201d093d94c7")
 			(effects
@@ -4269,7 +4269,7 @@
 				(justify right)
 			)
 		)
-		(pin "SMB_ALRT" output
+		(pin "SMB_ALRT_N" output
 			(at 180.34 100.33 0)
 			(uuid "22ea28ce-38df-452e-8f74-7262f54550dc")
 			(effects
@@ -4697,7 +4697,7 @@
 				(justify left)
 			)
 		)
-		(pin "RST" output
+		(pin "CHAIN_RST_N" output
 			(at 238.76 110.49 180)
 			(uuid "9761358f-c4b7-4652-9158-d04f438ad44a")
 			(effects
@@ -4787,7 +4787,7 @@
 				(justify left)
 			)
 		)
-		(pin "SMB_ALRT" input
+		(pin "SMB_ALRT_N" input
 			(at 238.76 100.33 180)
 			(uuid "72122749-55cc-4781-af5c-c1ecf8a86c50")
 			(effects

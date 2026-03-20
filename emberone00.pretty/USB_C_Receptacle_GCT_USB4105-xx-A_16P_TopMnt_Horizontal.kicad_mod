@@ -1,0 +1,495 @@
+(footprint "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
+	(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
+	(property "Reference" "J6"
+		(at -5.8 1.835 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "abc98123-c164-4f38-a53f-169dcd803162")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_C_Receptacle_USB2.0"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b5a1ab98-3ae6-41e9-8b3d-061dc5ac393e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "f46f5e91-993e-43f5-ade4-c7dff46cab09")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "4aafc851-e7db-460b-b372-8a0460ab9a36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "DK" "2073-USB4105-GF-ACT-ND"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e1f6378-4683-4d29-91aa-af97e9d69494")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTNO" "USB4105-GF-A"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c76dbef-e01b-489d-879d-c62f15ae3491")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C2988369"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2b05290-36be-4d50-a941-377327f59eae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2988369"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b61b2b18-87f7-4834-baee-91fdea72fec3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field6" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6de1a62-c576-4b34-83d6-cedee161ad3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "USB*C*Receptacle*")
+	(sheetname "/Data/")
+	(sheetfile "data.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.67 -1.8)
+		(end -4.67 -0.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f69f2691-8e6c-451f-ac09-3e8eb843c00c")
+	)
+	(fp_line
+		(start 4.67 -1.8)
+		(end 4.67 -0.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80ddc152-eeab-4c62-8cc4-5e0f6b1a080a")
+	)
+	(fp_line
+		(start -5 3.675)
+		(end 5 3.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a416dedd-d391-4669-b5f6-03935e3ad30d")
+	)
+	(fp_rect
+		(start -4.835 0.16)
+		(end -3.805 2.02)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "bf53bddb-83f3-4114-a2f9-dabd4890f70a")
+	)
+	(fp_rect
+		(start -4.83 -4.18)
+		(end -3.8 -2.02)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "1d665890-076a-4e12-8a15-1f79f0f3872b")
+	)
+	(fp_rect
+		(start 3.795 -4.15)
+		(end 4.825 -2.07)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "b2e33c7d-4192-4348-b91f-50dcffd03e17")
+	)
+	(fp_rect
+		(start 3.805 0.14)
+		(end 4.835 2.01)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "cb3bd451-119a-4577-b8f8-a9c782b2e337")
+	)
+	(fp_rect
+		(start 4.94 4.18)
+		(end -4.94 -4.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "97de4a70-8631-4174-a554-f58bbdac30d2")
+	)
+	(fp_rect
+		(start 4.47 3.675)
+		(end -4.47 -3.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e2d65c72-8165-494d-b1f3-14ca89d84a6c")
+	)
+	(fp_text user "PCB Edge"
+		(at 0 3.1 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "db7e34a3-79fd-4b99-b567-4c527ac4b918")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "A1"
+		(at -3.514 -4.267 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "308e66fe-6b27-4b34-95b2-fe4af4a988a9")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.025)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B12"
+		(at -3.2 -4.265 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3af7e8f2-ba17-41a8-97a7-1478dd0b8adb")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.025)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "A4"
+		(at -2.725 -4.275 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "58f58fd1-299a-4a03-b1ad-755e7e96602c")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.025)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B9"
+		(at -2.411 -4.273 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "19741caf-3ce7-4485-aeab-62859868e1e9")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.025)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.526 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c81a7cf2-8e7e-44b4-8def-3b00dddf9485")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "B4"
+		(at 2.085 -4.275 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "147e8800-7b12-4d9a-8bd4-e5d98c27655a")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.025)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "A9"
+		(at 2.399 -4.273 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fddb237b-2e11-4068-ae39-2c639a0b703b")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.025)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B1"
+		(at 2.896 -4.287 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3c4387a3-7f86-485f-8775-5cf089cefefe")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.025)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "A12"
+		(at 3.21 -4.285 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f4e81137-b29e-4609-938a-804a3823954a")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.025)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.89 -2.605)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "607cbd44-3bb2-4ca0-a09d-fb2aa675b1d5")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.89 -2.605)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "8cebd2ee-2e43-45a3-a4ad-ebf15e2fd783")
+	)
+	(pad "A1B12" smd roundrect
+		(at -3.2 -3.705)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9e503dbc-60a9-4e4e-aa65-0f39189ae24e")
+	)
+	(pad "A4B9" smd roundrect
+		(at -2.4 -3.68)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d060a2da-6dca-46a7-b6e4-2b7b5a1cc1e2")
+	)
+	(pad "A5" smd roundrect
+		(at -1.25 -3.68)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "679b9e49-9d2f-418e-8178-bde3c467bd6a")
+	)
+	(pad "A6" smd roundrect
+		(at -0.25 -3.68)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4951e59c-3836-4825-b8f3-dbbb8d96316f")
+	)
+	(pad "A7" smd roundrect
+		(at 0.25 -3.68)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8a8aa627-0285-45e2-b89e-7c0b267c5093")
+	)
+	(pad "A8" smd roundrect
+		(at 1.25 -3.68)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "aee2d286-93ff-460d-a815-7c74951b65a4")
+	)
+	(pad "B1A12" smd roundrect
+		(at 3.2 -3.705)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "450b54ec-ec26-4b44-94a6-4ecd47542776")
+	)
+	(pad "B4A9" smd roundrect
+		(at 2.4 -3.68)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "70bb7cad-00ea-41e2-9c1f-5f25c33c5962")
+	)
+	(pad "B5" smd roundrect
+		(at 1.75 -3.68)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e894f46a-fc2d-4832-af9f-b66eb7012953")
+	)
+	(pad "B6" smd roundrect
+		(at 0.75 -3.68)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e43aeef7-d3f8-42ce-ac91-45a474ab460a")
+	)
+	(pad "B7" smd roundrect
+		(at -0.75 -3.68)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3df54735-feea-419a-9125-0dcf1961a503")
+	)
+	(pad "B8" smd roundrect
+		(at -1.75 -3.68)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "aad70ac9-43c0-49b6-a666-388f980ef3cc")
+	)
+	(pad "S1" thru_hole oval
+		(at -4.32 -3.105)
+		(size 1 2.1)
+		(drill oval 0.6 1.7)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "05546e12-5710-4f87-b5bc-758ae8e1a1fc")
+	)
+	(pad "S1" thru_hole oval
+		(at -4.32 1.075)
+		(size 1 1.8)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "0961622d-067b-4463-b5b4-b531b8349944")
+	)
+	(pad "S1" thru_hole oval
+		(at 4.32 -3.105)
+		(size 1 2.1)
+		(drill oval 0.6 1.7)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "29f8f80c-e37c-4c7b-a1bc-bd7bba398f69")
+	)
+	(pad "S1" thru_hole oval
+		(at 4.32 1.075)
+		(size 1 1.8)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "b10f56af-5a3f-4142-bbbc-d963235ed9dc")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
