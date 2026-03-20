@@ -1,6 +1,5 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "aditBoard")(type "KiCad")(uri "${KIPRJMOD}/aditBoard.pretty")(options "")(descr ""))
-  (lib (name "bitaxe")(type "KiCad")(uri "${KIPRJMOD}/bitaxe.pretty")(options "")(descr ""))
-  (lib (name "emberone")(type "KiCad")(uri "${KIPRJMOD}/emberone00.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "bitaxe") (type "KiCad") (uri "${KIPRJMOD}/bitaxe.pretty") (options "") (descr ""))
+	(lib (name "emberone") (type "KiCad") (uri "${KIPRJMOD}/emberone00.pretty") (options "") (descr ""))
 )
