@@ -995,16 +995,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 36.83) (xy 189.23 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54fcee01-a0bd-41c5-979d-20eff7378c38")
-	)
-	(wire
-		(pts
 			(xy 72.39 43.18) (xy 78.74 43.18)
 		)
 		(stroke
@@ -1072,6 +1062,16 @@
 			(type default)
 		)
 		(uuid "6e589b7f-4467-4c73-843b-e38380e21b02")
+	)
+	(wire
+		(pts
+			(xy 180.34 35.56) (xy 189.23 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7129d54f-0125-4441-b713-d9a36ac2e537")
 	)
 	(wire
 		(pts
@@ -1663,16 +1663,6 @@
 		)
 		(uuid "355f0ca7-5d96-4328-abba-769a45cd269f")
 	)
-	(label "3V3"
-		(at 137.16 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f33d959-16b1-401c-9e44-6c0dfe39cb12")
-	)
 	(label "CHAIN_RST_N"
 		(at 46.99 110.49 0)
 		(effects
@@ -1802,6 +1792,16 @@
 			(justify right bottom)
 		)
 		(uuid "cde2faef-4d30-4f83-a502-cadc3395d703")
+	)
+	(label "3V3"
+		(at 180.34 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc27fb04-a55a-4f2a-b89a-8cd8d5393f37")
 	)
 	(label "5V"
 		(at 180.34 33.02 0)
@@ -4199,16 +4199,6 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3" input
-			(at 130.81 36.83 0)
-			(uuid "50196ad6-518d-460b-add9-edd0196992ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VIN" input
 			(at 101.6 36.83 180)
 			(uuid "7ce50fdb-c21e-4a30-9d20-a38c4c7e3e09")
@@ -4727,16 +4717,6 @@
 				(justify left)
 			)
 		)
-		(pin "3V3" output
-			(at 189.23 36.83 180)
-			(uuid "6ff812df-cb6a-472e-9cc2-8a79fb8c7ba9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "5V" output
 			(at 189.23 33.02 180)
 			(uuid "0b60cc7a-e10e-4d00-bcf5-7822a41ac37a")
@@ -4815,6 +4795,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "3V3" output
+			(at 189.23 35.56 180)
+			(uuid "4fa31d01-ad72-4337-96ce-227e8036d00c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -1131,7 +1131,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
+		(symbol "Device:D_TVS_Small_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1154,7 +1154,7 @@
 					)
 				)
 			)
-			(property "Value" "D_TVS"
+			(property "Value" "D_TVS_Small_Filled"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1186,7 +1186,7 @@
 					)
 				)
 			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol, filled shape"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1219,34 +1219,10 @@
 					)
 				)
 			)
-			(symbol "D_TVS_0_1"
+			(symbol "D_TVS_Small_Filled_0_1"
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1256,11 +1232,47 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0.508 1.016) (xy 0 1.016) (xy 0 -1.016) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "D_TVS_1_1"
+			(symbol "D_TVS_Small_Filled_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.016) (xy -1.27 -1.016) (xy 0 0) (xy -1.27 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 1.016) (xy 1.27 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
+					(at -2.54 0 0)
+					(length 1.27)
 					(name "A1"
 						(effects
 							(font
@@ -1277,8 +1289,8 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
+					(at 2.54 0 180)
+					(length 1.27)
 					(name "A2"
 						(effects
 							(font
@@ -6247,7 +6259,7 @@
 	)
 	(text "Accessory Port"
 		(exclude_from_sim no)
-		(at 328.676 85.09 0)
+		(at 343.916 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6311,6 +6323,12 @@
 		(uuid "f846bac4-7546-4eaf-b941-4fd8691ec5b6")
 	)
 	(junction
+		(at 109.22 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06936e18-2e8c-47b5-ba5f-a563d2647ec8")
+	)
+	(junction
 		(at 173.99 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6321,12 +6339,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f49f5ef-cde5-49ee-b8ab-041e7e0f810c")
-	)
-	(junction
-		(at 314.96 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11989591-0b42-49d3-a8c2-82f0c5b0a094")
 	)
 	(junction
 		(at 121.92 237.49)
@@ -6401,6 +6413,12 @@
 		(uuid "400d3a44-c0da-4df4-846e-c0ad1d20d718")
 	)
 	(junction
+		(at 314.96 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4012fe7d-841c-4bfa-9e9e-59e80aa03685")
+	)
+	(junction
 		(at 234.95 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6467,6 +6485,12 @@
 		(uuid "5a453a21-d05a-406f-acc1-fe4426d89a76")
 	)
 	(junction
+		(at 325.12 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aa35da6-0225-4683-acef-45005822449b")
+	)
+	(junction
 		(at 203.2 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6503,10 +6527,10 @@
 		(uuid "6e3fee31-a240-4120-b813-944d2349a8de")
 	)
 	(junction
-		(at 109.22 52.07)
+		(at 298.45 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "72b61746-64e9-4579-8f23-1f209a187ddf")
+		(uuid "7317fd76-b377-4b0b-825d-58c87c13876d")
 	)
 	(junction
 		(at 304.8 107.95)
@@ -6521,10 +6545,22 @@
 		(uuid "791d11e9-609a-49e6-88a4-68a9c3ceec93")
 	)
 	(junction
+		(at 304.8 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8515647f-9d8f-487b-89f4-66e7444044e6")
+	)
+	(junction
 		(at 234.95 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85991099-b271-43ac-b785-6ebc5c6f34c6")
+	)
+	(junction
+		(at 152.4 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87e9881a-a11a-4981-bf0c-b2afd17f5769")
 	)
 	(junction
 		(at 110.49 167.64)
@@ -6533,16 +6569,16 @@
 		(uuid "9378daea-6b75-4ab9-9880-1b84dc020719")
 	)
 	(junction
-		(at 165.1 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95d52118-7880-4e0d-8ccf-9a2fcfdf4237")
-	)
-	(junction
 		(at 121.92 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96af5845-53fb-4831-aa84-ac8c2ebc9873")
+	)
+	(junction
+		(at 314.96 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99553852-02ac-4d9f-93c6-055931cfb650")
 	)
 	(junction
 		(at 213.36 52.07)
@@ -6551,22 +6587,10 @@
 		(uuid "a26fb7db-fa2b-49c3-bc07-a3f824e89853")
 	)
 	(junction
-		(at 298.45 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7bc9712-bdb1-4647-9778-a567facbe9d6")
-	)
-	(junction
 		(at 344.17 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8c31c18-d768-4809-aa9c-968ebf8868ee")
-	)
-	(junction
-		(at 304.8 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a94ee01d-3ca6-4da3-922a-8e137c8bdd7b")
 	)
 	(junction
 		(at 193.04 71.12)
@@ -6665,10 +6689,10 @@
 		(uuid "ecdc8847-990e-45ca-8dcf-29e391849297")
 	)
 	(junction
-		(at 152.4 86.36)
+		(at 165.1 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4375966-6740-45eb-aa96-3078acb9cbaf")
+		(uuid "f513e90c-2637-4837-8534-d5b4a1036bcd")
 	)
 	(junction
 		(at 105.41 257.81)
@@ -6884,7 +6908,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 99.06) (xy 331.47 99.06)
+			(xy 262.89 99.06) (xy 346.71 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6904,7 +6928,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 127) (xy 321.31 127)
+			(xy 262.89 127) (xy 325.12 127)
 		)
 		(stroke
 			(width 0)
@@ -7054,16 +7078,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 123.19) (xy 152.4 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23409096-46e5-4fba-990a-0b2f69730260")
-	)
-	(wire
-		(pts
 			(xy 66.04 121.92) (xy 73.66 121.92)
 		)
 		(stroke
@@ -7074,7 +7088,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 101.6) (xy 331.47 101.6)
+			(xy 262.89 101.6) (xy 346.71 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7161,6 +7175,16 @@
 			(type default)
 		)
 		(uuid "2a949941-2277-4256-99de-d5cd1c12e62f")
+	)
+	(wire
+		(pts
+			(xy 109.22 52.07) (xy 113.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e705155-a1a4-4b96-863a-8968bf4e4264")
 	)
 	(wire
 		(pts
@@ -7264,7 +7288,17 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 124.46) (xy 321.31 124.46)
+			(xy 325.12 127) (xy 350.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b9bee2-2931-4e18-8d06-044a3baeffa0")
+	)
+	(wire
+		(pts
+			(xy 304.8 124.46) (xy 350.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7324,7 +7358,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 96.52) (xy 331.47 96.52)
+			(xy 262.89 96.52) (xy 346.71 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7734,6 +7768,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 118.11) (xy 325.12 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7affd7-2b43-48c0-bb24-9d4e39c8fd43")
+	)
+	(wire
+		(pts
 			(xy 278.13 52.07) (xy 289.56 52.07)
 		)
 		(stroke
@@ -7804,7 +7848,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 123.19) (xy 152.4 123.19)
+			(xy 165.1 116.84) (xy 152.4 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7821,6 +7865,16 @@
 			(type default)
 		)
 		(uuid "632c401a-5b13-491e-b196-10925e06bc74")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 152.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6359d7e5-b0c4-46eb-8cf5-11ea8ae38b02")
 	)
 	(wire
 		(pts
@@ -7914,16 +7968,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 52.07) (xy 118.11 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ddc0feb-4879-4d62-a584-e26b5ce0e33c")
-	)
-	(wire
-		(pts
 			(xy 226.06 52.07) (xy 234.95 52.07)
 		)
 		(stroke
@@ -8004,7 +8048,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 91.44) (xy 331.47 91.44)
+			(xy 335.28 91.44) (xy 346.71 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8144,16 +8188,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 110.49) (xy 152.4 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "789edd30-44f6-4da0-bc76-fa8d8a24765c")
-	)
-	(wire
-		(pts
 			(xy 95.25 95.25) (xy 100.33 95.25)
 		)
 		(stroke
@@ -8284,7 +8318,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 88.9) (xy 331.47 88.9)
+			(xy 337.82 88.9) (xy 346.71 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8404,6 +8438,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 110.49) (xy 325.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ea8b37-3f5d-482e-b9d6-b0d5cecb731e")
+	)
+	(wire
+		(pts
 			(xy 199.39 119.38) (xy 212.09 119.38)
 		)
 		(stroke
@@ -8414,7 +8458,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 129.54) (xy 321.31 129.54)
+			(xy 314.96 129.54) (xy 350.52 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8444,7 +8488,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 121.92) (xy 321.31 121.92)
+			(xy 298.45 121.92) (xy 350.52 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8491,16 +8535,6 @@
 			(type default)
 		)
 		(uuid "97d7bc45-64fc-42fb-8277-d57cb1ea3195")
-	)
-	(wire
-		(pts
-			(xy 165.1 118.11) (xy 165.1 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "981dd3f0-5e1a-4305-a44d-62ab46f21ed8")
 	)
 	(wire
 		(pts
@@ -8594,7 +8628,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 106.68) (xy 331.47 106.68)
+			(xy 337.82 106.68) (xy 346.71 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8894,6 +8928,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 113.03) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77b99c3-626c-44a1-b3dc-52d299147b0d")
+	)
+	(wire
+		(pts
 			(xy 201.93 62.23) (xy 213.36 62.23)
 		)
 		(stroke
@@ -9024,13 +9068,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 104.14) (xy 165.1 110.49)
+			(xy 165.1 104.14) (xy 165.1 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c6059fdf-242a-40f2-846a-13f42c2b1f33")
+	)
+	(wire
+		(pts
+			(xy 325.12 107.95) (xy 314.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82ed8ac-c81a-4d8a-ac4d-9cb19abf9aa7")
 	)
 	(wire
 		(pts
@@ -9324,6 +9378,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 86.36) (xy 152.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03536ac-396e-4f6e-b4e2-2319d2fec2e0")
+	)
+	(wire
+		(pts
 			(xy 102.87 247.65) (xy 105.41 247.65)
 		)
 		(stroke
@@ -9464,7 +9528,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 93.98) (xy 331.47 93.98)
+			(xy 262.89 93.98) (xy 346.71 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9554,7 +9618,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 104.14) (xy 331.47 104.14)
+			(xy 337.82 104.14) (xy 346.71 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9613,7 +9677,7 @@
 		(uuid "0806b1d6-1e2b-4a31-a750-cfae7cbeafaf")
 	)
 	(label "GND"
-		(at 322.58 88.9 0)
+		(at 337.82 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9883,7 +9947,7 @@
 		(uuid "58b8a48c-69d1-4a3e-9d33-79dcf70e5fc7")
 	)
 	(label "3V3"
-		(at 322.58 106.68 0)
+		(at 337.82 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9903,7 +9967,7 @@
 		(uuid "5d415861-d634-47eb-acda-319e796d8de5")
 	)
 	(label "VIN_REV"
-		(at 322.58 91.44 0)
+		(at 337.82 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9933,7 +9997,7 @@
 		(uuid "600aad7b-0036-41cf-886a-a7642e70c9a9")
 	)
 	(label "GND"
-		(at 322.58 104.14 0)
+		(at 337.82 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10303,7 +10367,7 @@
 		(uuid "f1e9e722-85ac-4232-8bc9-e3168720681c")
 	)
 	(label "GND"
-		(at 157.48 123.19 0)
+		(at 157.48 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10386,20 +10450,9 @@
 			)
 		)
 	)
-	(hierarchical_label "3V3"
-		(shape output)
-		(at 118.11 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "07969ebc-2230-4b3e-a37c-36c748906e5b")
-	)
 	(hierarchical_label "SCL"
 		(shape output)
-		(at 321.31 124.46 0)
+		(at 350.52 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10421,7 +10474,7 @@
 	)
 	(hierarchical_label "SMB_ALRT_N"
 		(shape input)
-		(at 321.31 129.54 0)
+		(at 350.52 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10443,7 +10496,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 321.31 121.92 0)
+		(at 350.52 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10498,7 +10551,7 @@
 	)
 	(hierarchical_label "PGOOD"
 		(shape input)
-		(at 321.31 127 0)
+		(at 350.52 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10520,7 +10573,7 @@
 	)
 	(hierarchical_label "VIN_REV"
 		(shape input)
-		(at 320.04 91.44 180)
+		(at 335.28 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10539,6 +10592,17 @@
 			(justify right)
 		)
 		(uuid "f9d77724-000e-403b-8f44-78cdd1f7094c")
+	)
+	(hierarchical_label "3V3"
+		(shape output)
+		(at 113.03 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd5ba7e0-fa5a-422b-ab2e-15b8f7902691")
 	)
 	(symbol
 		(lib_id "emberone:W25Q16JVUXIQ_TR")
@@ -11913,8 +11977,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 152.4 114.3 90)
+		(lib_id "Device:D_TVS_Small_Filled")
+		(at 152.4 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11925,7 +11989,7 @@
 		(fields_autoplaced yes)
 		(uuid "47e81266-67ac-4799-968f-a76db5eb0b0e")
 		(property "Reference" "D3"
-			(at 154.94 113.0299 90)
+			(at 154.94 109.2199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11936,7 +12000,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 154.94 115.5699 90)
+			(at 154.94 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11947,7 +12011,7 @@
 			)
 		)
 		(property "Footprint" "emberone:SOT5x3_DYA_TEX"
-			(at 152.4 114.3 0)
+			(at 152.4 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11958,7 +12022,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf"
-			(at 152.4 114.3 0)
+			(at 152.4 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11968,8 +12032,8 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 152.4 114.3 0)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol, filled shape"
+			(at 152.4 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11980,7 +12044,7 @@
 			)
 		)
 		(property "DK" "296-TPD1E10B06DYARCT-ND"
-			(at 152.4 114.3 90)
+			(at 152.4 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11991,7 +12055,7 @@
 			)
 		)
 		(property "PARTNO" "TPD1E10B06DYAR"
-			(at 152.4 114.3 90)
+			(at 152.4 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13501,8 +13565,112 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 165.1 114.3 90)
+		(lib_id "Device:R_US")
+		(at 325.12 114.3 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "6b2aa869-f772-4268-a7f9-d55e0116454c")
+		(property "Reference" "R2"
+			(at 327.66 115.5701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 327.66 113.0301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 326.136 114.046 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 325.12 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DK" "311-10.0KLRCT-ND"
+			(at 325.12 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTNO" "RC0402FR-0710KL"
+			(at 325.12 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50fd031f-2729-441e-910d-3b8665ea873f")
+		)
+		(pin "2"
+			(uuid "8b8dbf97-7662-4bc8-8bff-fb37c8be4ee1")
+		)
+		(instances
+			(project "emberone00"
+				(path "/b036224c-4cdf-48cc-81df-19bc5283ebd2/e89e3a77-546a-4a35-b100-669149b20581"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Small_Filled")
+		(at 165.1 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13513,7 +13681,7 @@
 		(fields_autoplaced yes)
 		(uuid "782507ee-baa4-469c-b4d1-b887df6f7610")
 		(property "Reference" "D4"
-			(at 167.64 113.0299 90)
+			(at 167.64 109.2199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13524,7 +13692,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 167.64 115.5699 90)
+			(at 167.64 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13535,7 +13703,7 @@
 			)
 		)
 		(property "Footprint" "emberone:SOT5x3_DYA_TEX"
-			(at 165.1 114.3 0)
+			(at 165.1 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13546,7 +13714,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf"
-			(at 165.1 114.3 0)
+			(at 165.1 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13556,8 +13724,8 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 165.1 114.3 0)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol, filled shape"
+			(at 165.1 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13568,7 +13736,7 @@
 			)
 		)
 		(property "DK" "296-TPD1E10B06DYARCT-ND"
-			(at 165.1 114.3 90)
+			(at 165.1 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13579,7 +13747,7 @@
 			)
 		)
 		(property "PARTNO" "TPD1E10B06DYAR"
-			(at 165.1 114.3 90)
+			(at 165.1 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15050,7 +15218,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 336.55 96.52 0)
+		(at 351.79 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15060,7 +15228,7 @@
 		(dnp no)
 		(uuid "b6f89520-bd4f-4f8b-96af-1b6115de2226")
 		(property "Reference" "J20"
-			(at 339.725 96.52 0)
+			(at 354.965 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15071,7 +15239,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 339.725 99.06 0)
+			(at 354.965 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15082,7 +15250,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 336.55 96.52 0)
+			(at 351.79 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15093,7 +15261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 96.52 0)
+			(at 351.79 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15104,7 +15272,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 336.55 96.52 0)
+			(at 351.79 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15115,7 +15283,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 336.55 96.52 0)
+			(at 351.79 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
